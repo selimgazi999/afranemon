@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Afran Emon - Shop</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    :root {
+      --bg: #0f1117;
+      --text: #e0e0e0;
+      --accent: #00ffab;
+      --btn-bg: #1f1f1f;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Courier New', Courier, monospace;
+    }
+
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header {
+      background-color: #12141c;
+      padding: 20px;
+      text-align: center;
+      font-size: 30px;
+      font-weight: bold;
+      color: var(--accent);
+      letter-spacing: 1px;
+      border-bottom: 1px solid #222;
+    }
+
+    .shop-container {
+      flex: 1;
+      padding: 40px 20px;
+      display: grid;
+      gap: 30px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .product {
+      background-color: #1a1c22;
+      border: 1px solid #333;
+      border-radius: 8px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 0 10px #00000044;
+    }
+
+    .product img {
+      width: 100%;
+      max-height: 200px;
+      object-fit: cover;
+      border-radius: 6px;
+      margin-bottom: 15px;
+    }
+
+    .product h3 {
+      font-size: 22px;
+      color: var(--accent);
+      margin-bottom: 10px;
+    }
+
+    .product p {
+      font-size: 16px;
+      color: #ccc;
+      margin-bottom: 10px;
+    }
+
+    .price {
+      font-size: 18px;
+      color: #fff;
+      margin-bottom: 15px;
+    }
+
+    .buy-btn a {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: var(--btn-bg);
+      color: var(--accent);
+      border: 1px solid var(--accent);
+      border-radius: 5px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .buy-btn a:hover {
+      background-color: var(--accent);
+      color: #000;
+    }
+
+    footer {
+      background-color: #12141c;
+      color: #999;
+      text-align: center;
+      padding: 15px;
+      font-size: 14px;
+      border-top: 1px solid #222;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    Afran Emon
+  </header>
+
+  <div class="shop-container">
+    <!-- Product 1 -->
+    <div class="product">
+      <img src="https://via.placeholder.com/600x200?text=HTML+Template" alt="HTML Template">
+      <h3>Landing Page HTML Template</h3>
+      <p>A clean and responsive landing page for your projects.</p>
+      <div class="price">$5</div>
+      <div class="buy-btn">
+        <a href="https://wa.me/8801234567890?text=I'm%20interested%20in%20buying%20the%20Landing%20Page%20HTML%20Template%20($5)">Buy Now</a>
+      </div>
+    </div>
+
+    <!-- Product 2 -->
+    <div class="product">
+      <img src="https://via.placeholder.com/600x200?text=JS+Snippet" alt="JavaScript Tool">
+      <h3>Auto Popunder Script</h3>
+      <p>Lightweight script to run popunder every 20 seconds on user interaction.</p>
+      <div class="price">$3</div>
+      <div class="buy-btn">
+        <a href="https://wa.me/8801234567890?text=I'm%20interested%20in%20buying%20the%20Auto%20Popunder%20Script%20($3)">Buy Now</a>
+      </div>
+    </div>
+
+    <!-- Add more products as needed -->
+  </div>
+
+  <footer>
+    &copy; 2025 Afran Emon | Designed for developers, by a developer.
+  </footer>
+
+</body>
+</html>

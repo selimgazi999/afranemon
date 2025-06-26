@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Afran Emon - Developer Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    :root {
+      --bg: #0f1117;
+      --text: #e0e0e0;
+      --accent: #00ffab;
+      --btn-bg: #1f1f1f;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Courier New', Courier, monospace;
+    }
+
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header {
+      background-color: #12141c;
+      padding: 20px;
+      text-align: center;
+      font-size: 30px;
+      font-weight: bold;
+      color: var(--accent);
+      letter-spacing: 1px;
+      border-bottom: 1px solid #222;
+    }
+
+    .profile {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .profile img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 3px solid var(--accent);
+      object-fit: cover;
+      box-shadow: 0 0 15px #00ffab33;
+    }
+
+    .profile p {
+      margin-top: 25px;
+      font-size: 18px;
+      max-width: 600px;
+      line-height: 1.6;
+      color: #ccc;
+    }
+
+    .shop-button {
+      margin-top: 30px;
+    }
+
+    .shop-button a {
+      padding: 12px 28px;
+      background-color: var(--btn-bg);
+      color: var(--accent);
+      text-decoration: none;
+      border: 1px solid var(--accent);
+      border-radius: 5px;
+      font-size: 16px;
+      transition: all 0.3s;
+    }
+
+    .shop-button a:hover {
+      background-color: var(--accent);
+      color: #000;
+    }
+
+    footer {
+      background-color: #12141c;
+      color: #999;
+      text-align: center;
+      padding: 15px;
+      font-size: 14px;
+      border-top: 1px solid #222;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    Afran Emon
+  </header>
+
+  <div class="profile">
+    <img src="https://via.placeholder.com/150" alt="Afran Emon">
+    <p>
+      Hello, I'm <strong>Afran Emon</strong> — a self-taught web developer focused on creating fast, responsive, and visually modern websites.  
+      I love clean code, minimal UI, and building things that work beautifully.
+    </p>
+
+    <div class="shop-button">
+      <a href="#">Visit My Shop</a>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Afran Emon | Coded with ❤️ and a lot of coffee.
+  </footer>
+
+</body>
+</html>
